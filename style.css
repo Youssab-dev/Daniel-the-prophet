@@ -8,6 +8,7 @@
     color: white !important;
 }
 .content{
+    text-indent:5px;
     text-align: left;
     padding: 0px 20px 0px 20px;
     width: 100%;
