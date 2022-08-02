@@ -3,11 +3,17 @@
     font-weight: 600;
     color: #333 !important;
     border: 2px solid #333 !important;
-    background-color: white !important;
+    background-color: whitesmoke !important;
+}
+body{
+    background-color: whitesmoke;
 }
 .darkmm{
-    background-color: black !important;
+    background-color:#000021 !important;
     color: white !important;
+}
+.textsh{
+    text-shadow: 0px 0px 3px white !important;
 }
 .container-img{
     margin-top: 70px;
@@ -26,17 +32,50 @@ ul,li{
     font-weight: 600;
 }
 h2{
+    text-shadow: 0px 0px 3px black;
+    font-weight: 700;
     font-size: 30px;
-    font-weight:700;
     padding: 0px 20px;
-    text-decoration:underline;
+    margin-bottom: 1px;
 }
 p{
-    font-size: 20px;
-    font-weight: 700;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 600;
     padding: 0px 20px;
+    transition: text-shadow 0.5s ease-in-out;
 }
 .content{
+    position: relative;
     margin-top: 40px;
     text-align: right;
+}
+.animi{
+    margin-right: 20px;
+    float: right;
+    width: 330px;
+    height: 20px;
+    overflow-x: hidden;
+    position: relative;
+}
+.long{
+    width: 270px;
+    background-color:black;
+    box-shadow: 0px 0px 5px;
+    height: 5px;
+    position: absolute;
+    right: 30px;
+    animation: goleftlong 3s infinite ;
+}
+.longwh{
+    background-color: white !important;
+    box-shadow: 0px 0px 5px;
+}
+@keyframes goleftlong {
+    0%{
+        right: 30px;
+    }
+    50%{
+        right: -30px;
+    }
 }
