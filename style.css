@@ -1,6 +1,6 @@
 .dbutton{
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     color: #333 !important;
     border: 2px solid #333 !important;
     background-color: whitesmoke !important;
@@ -13,7 +13,7 @@ body{
     color: white !important;
 }
 .textsh{
-    text-shadow: 0px 0px 3px white !important;
+    text-shadow: 0px 0px 2px white !important;
 }
 .container-img{
     margin-top: 70px;
@@ -32,14 +32,13 @@ ul,li{
     font-weight: 600;
 }
 h2{
-    text-shadow: 0px 0px 3px black;
+    text-shadow: 0px 0px 2px black;
     font-weight: 700;
     font-size: 30px;
     padding: 0px 20px;
-    margin-bottom: 1px;
+    text-decoration:underline;
 }
 p{
-    margin-top: 30px;
     font-size: 25px;
     font-weight: 600;
     padding: 0px 20px;
@@ -50,32 +49,48 @@ p{
     margin-top: 40px;
     text-align: right;
 }
-.animi{
-    margin-right: 20px;
-    float: right;
-    width: 330px;
-    height: 20px;
-    overflow-x: hidden;
-    position: relative;
+.hebook{
+    margin-top: 80px;
+    width: 100%;
+    text-align: center;
 }
-.long{
-    width: 270px;
-    background-color:black;
-    box-shadow: 0px 0px 5px;
-    height: 5px;
-    position: absolute;
-    right: 30px;
-    animation: goleftlong 3s infinite ;
+.cardto{
+    background-color: rgba(6, 1, 46, 0.5)  !important;
 }
-.longwh{
-    background-color: white !important;
-    box-shadow: 0px 0px 5px;
+img{
+    opacity: 0.7;
 }
-@keyframes goleftlong {
-    0%{
-        right: 30px;
+.booksec{
+    padding: 0px 0px 0px 24px;
+    margin-top: 20px;
+}
+.bookcont{
+    display: inline-block;
+    margin: 0px 30px 20px 0px;
+    width: 300px;
+    height: 450px;
+    border: 2px solid #333;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 4px #333;
+}
+@media (min-width:0px) and (max-width:467px){
+    .booksec{
+        padding: 0px 65px;
     }
-    50%{
-        right: -30px;
+    .bookcont{
+        width: 250px;
+        height: 350px;
     }
 }
+@media (min-width:468px) and (max-width:700px){
+    .booksec{
+        padding: 0px 100px;
+    }
+    .bookcont{
+        width: 300px;
+        height: 450px;
+    }
+}
+
+
+
