@@ -3,7 +3,7 @@
     font-weight: 500;
     color: #333 !important;
     border: 2px solid #333 !important;
-    background-color: whitesmoke !important;
+    background-color: #f1f1f1 !important;
 }
 body{
     background-color: #f1f1f1;
@@ -45,7 +45,6 @@ p{
     transition: text-shadow 0.5s ease-in-out;
 }
 .content{
-    position: relative;
     margin-top: 40px;
     text-align: right;
 }
@@ -61,10 +60,11 @@ img{
     opacity: 0.7;
 }
 .booksec{
-    padding: 0px 0px 0px 24px;
+    padding: 0px 0px 0px 29px;
     margin-top: 20px;
 }
 .bookcont{
+    vertical-align: top;
     display: inline-block;
     margin: 0px 30px 20px 0px;
     width: 300px;
@@ -73,13 +73,74 @@ img{
     border-radius: 5px 5px 5px 5px;
     box-shadow: 0px 0px 4px #333;
 }
+.bocov{
+    background: url(../IMAGES/w10-200x200.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    border-bottom: 2px solid #333;
+    box-shadow: 0px 0px 4px #333;
+}
+.bonight{
+    opacity: 0.5;
+}
+.infosec{
+    position: relative;
+    height:145px;
+    width: 100%;
+}
+.download-btn{
+    position: absolute;
+    top: 30px;
+    margin: 30px 0px 0px 80px;
+    padding: 10px 50px;
+    background-color:teal;
+    font-size: 20px;
+    border-radius: 5px 5px 5px 5px;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.download-night{
+    background-color: crimson;
+}
+.download-btn:hover{
+    color: #f1f1f1;
+}
 @media (min-width:0px) and (max-width:467px){
+    #darkmode{
+        font-size: 15px !important;
+    }
+    #darkmode{
+        font-size: 15px;
+
+    }
+    ul,li{
+        font-size: 15px;
+        font-weight: 500;
+    }
     .booksec{
-        padding: 0px 65px;
+        padding: 0px 70px;
     }
     .bookcont{
         width: 250px;
         height: 350px;
+    }
+    .bocov{
+        height: 250px;
+    }
+    .infosec{
+        height: 97px;
+    }
+    .infosec > p{
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0px 5px;
+    }
+    .download-btn{
+        position: unset;
+        font-size: 15px;
+        margin-left: 55px;
     }
 }
 @media (min-width:468px) and (max-width:700px){
@@ -91,6 +152,3 @@ img{
         height: 450px;
     }
 }
-
-
-
