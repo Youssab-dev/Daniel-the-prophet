@@ -27,7 +27,7 @@
                     <a class="nav-link active" href="#">كتب</a>
                   </li>
               </ul>
-              <div style="max-width: 100%; float: right; margin-top: 20px;"><button onclick="darkmm()" id="darkmode" style="border: 2px solid white; border-radius: 10px 10px 10px 10px; color: white; background-color: #333; transition: background-color ease-in-out 0.5s !important;     font-size: 20px;
+              <div  style="max-width: 100%; float: right; margin-top: 20px;"><button onclick="darkmm()"  id="darkmode" style="border: 2px solid white; border-radius: 10px 10px 10px 10px; color: #f1f1f1; background-color: #333; transition: background-color ease-in-out 0.5s !important;     font-size: 20px;
                 font-weight: 500;">الوضع الليلى</button></div>
             </div>
           </div>
@@ -35,11 +35,16 @@
       </nav>
       <div class="hebook">
         <h2>.مكتبة الموقع</h2>
-        <p>.مكتبة تحتوى على بعض الكتب التأملية</p>
+        <p>مكتبة تحتوى على بعض الكتب التأملية</p>
       </div>
       <div class="booksec">
           <div class="bookcont">
-
+              <div class="bocov">
+              </div>
+              <div class="infosec">
+                  <P style="padding: 0px 10px;">المؤلف: البابا شنوده الثالث</P>
+                  <a href="تأملات في حياة داود النبي - البابا شنودة الثالث.pdf" class="download-btn">تنزيل</a>
+              </div>
           </div>
           <div class="bookcont">
             
@@ -71,6 +76,8 @@
           $('body').toggleClass('darkmm')
           $("h2").toggleClass('textsh')      
           $(".card").toggleClass('cardto')
+          $('.bocov').toggleClass('bonight')
+          $('.download-btn').toggleClass('download-night')
         })
         function darkmm(){
             dbutton.classList.toggle('dbutton')
