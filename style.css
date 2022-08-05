@@ -60,7 +60,7 @@ img{
     opacity: 0.7;
 }
 .booksec{
-    padding: 0px 0px 0px 29px;
+    padding: 0px 0px 0px 20px;
     margin-top: 20px;
 }
 .bookcont{
@@ -119,8 +119,11 @@ img{
         font-size: 15px;
         font-weight: 500;
     }
+    .hebook{
+        padding-right: 10px;
+    }
     .booksec{
-        padding: 0px 70px;
+        padding: 0px 60px;
     }
     .bookcont{
         width: 250px;
@@ -151,9 +154,10 @@ img{
         width: 300px;
         height: 450px;
     }
-        .infosec > p{
+    .infosec > p{
         font-size: 20px;
         font-weight: 500;
         padding: 0px 5px;
     }
 }
+
