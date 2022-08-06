@@ -90,10 +90,6 @@ img{
     height:145px;
     width: 100%;
 }
-.infosec > p{
-    font-weight: 600;
-    padding: 0px 10px;
-}
 .download-btn{
     position: absolute;
     top: 30px;
@@ -169,6 +165,12 @@ img{
         font-size: 20px;
         font-weight: 500;
         padding: 0px 5px !important;
+    }
+}
+@media(min-width:701px){
+    .infosec > p{
+        font-weight: 600;
+        padding: 0px 10px;
     }
 }
 
