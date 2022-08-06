@@ -38,6 +38,11 @@ h2{
     padding: 0px 20px;
     text-decoration:underline;
 }
+h5{
+
+    margin-top: 20px;
+    text-align: center;
+}
 p{
     font-size: 25px;
     font-weight: 600;
@@ -86,15 +91,15 @@ img{
     opacity: 0.5;
 }
 .infosec{
-    position: relative;
     height:145px;
     width: 100%;
 }
 .download-btn{
-    position: absolute;
-    top: 30px;
-    margin: 30px 0px 0px 80px;
+    display: block;
+    width: 150px;
+    margin: 20px 0px 0px 70px;
     padding: 10px 50px;
+    border: 2px solid #333;
     background-color:teal;
     font-size: 20px;
     border-radius: 5px 5px 5px 5px;
@@ -118,6 +123,9 @@ img{
         font-size: 15px;
 
     }
+    h5{
+        margin-top: 5px;
+    }
     ul,li{
         font-size: 15px;
         font-weight: 500;
@@ -138,14 +146,9 @@ img{
     .infosec{
         height: 97px;
     }
-    .infosec > p{
-        text-indent:0px !important;
-        font-size: 20px;
-        font-weight: 500;
-        padding: 0px 5px !important;
-    }
     .download-btn{
-        position: unset;
+        margin-top: 10px;
+        width: 130px;
         font-size: 15px;
         margin-left: 55px;
     }
@@ -162,17 +165,6 @@ img{
         width: 300px;
         height: 450px;
     }
-    .infosec > p{
-        text-indent:0px !important;
-        font-size: 20px;
-        font-weight: 500;
-        padding: 0px 5px !important;
-    }
-}
-@media(min-width:701px){
-    .infosec > p{
-        font-weight: 600;
-        padding: 0px 10px;
-    }
+
 }
 
